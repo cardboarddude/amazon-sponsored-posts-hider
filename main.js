@@ -1,12 +1,3 @@
-function removeSponsored(sponsored) {
-  console.log(`Found ${sponsored.length} sponsored posts.`);
-
-  sponsored.forEach(function(index) {
-    console.log(`HIDING_${index}`);
-  });
-
-}
-
 function tryRemoveSponsored() {
   let sponsored = $('span:contains("Sponsored")');
 
